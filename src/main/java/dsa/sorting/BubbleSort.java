@@ -3,7 +3,8 @@ package dsa.sorting;
 import java.util.Arrays;
 
 public class BubbleSort {
-    public void sort(int[] inputArray){
+
+    private void sort(int[] inputArray){
         int length = inputArray.length;
 
         for(int i=0; i < length-1; i++){
